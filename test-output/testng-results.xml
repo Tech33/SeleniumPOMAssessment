@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[ HeaderTab Not Found ]]>
+    </line>
+    <line>
+      <![CDATA[Website is showing Current Date 19 November, 2020]]>
+    </line>
+    <line>
+      <![CDATA[Product List box is not in Sorted Order]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15064" started-at="2020-11-19T20:36:19 IST" finished-at="2020-11-19T20:36:34 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15064" started-at="2020-11-19T20:36:19 IST" finished-at="2020-11-19T20:36:34 IST">
+      <class name="com.Tests.HomePageTest">
+        <test-method status="PASS" signature="setupenvi()[pri:0, instance:com.Tests.HomePageTest@74294adb]" name="setupenvi" is-config="true" duration-ms="3375" started-at="2020-11-19T20:36:19 IST" finished-at="2020-11-19T20:36:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupenvi -->
+        <test-method status="PASS" signature="HeaderTest()[pri:0, instance:com.Tests.HomePageTest@74294adb]" name="HeaderTest" duration-ms="2619" started-at="2020-11-19T20:36:22 IST" finished-at="2020-11-19T20:36:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ HeaderTab Not Found ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HeaderTest -->
+        <test-method status="PASS" signature="checkForChatAndDate()[pri:0, instance:com.Tests.HomePageTest@74294adb]" name="checkForChatAndDate" duration-ms="4376" started-at="2020-11-19T20:36:25 IST" finished-at="2020-11-19T20:36:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Website is showing Current Date 19 November, 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkForChatAndDate -->
+        <test-method status="PASS" signature="checkForContactUsSorting()[pri:0, instance:com.Tests.HomePageTest@74294adb]" name="checkForContactUsSorting" duration-ms="723" started-at="2020-11-19T20:36:29 IST" finished-at="2020-11-19T20:36:30 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Product List box is not in Sorted Order]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkForContactUsSorting -->
+        <test-method status="PASS" signature="checkProductFromSearch()[pri:0, instance:com.Tests.HomePageTest@74294adb]" name="checkProductFromSearch" duration-ms="3316" started-at="2020-11-19T20:36:30 IST" finished-at="2020-11-19T20:36:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductFromSearch -->
+        <test-method status="PASS" signature="Tearenvir()[pri:0, instance:com.Tests.HomePageTest@74294adb]" name="Tearenvir" is-config="true" duration-ms="630" started-at="2020-11-19T20:36:33 IST" finished-at="2020-11-19T20:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tearenvir -->
+      </class> <!-- com.Tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 8.305 sec <<< FAILURE! - in TestSuite
+DateTest(com.Tests.LoginTest)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError: Website is not showing Current Date expected [Sep 10, 2020] but found [Jul 6, 2017]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.Tests.LoginTest.DateTest(LoginTest.java:53)
+
+loginTestCheck(com.Tests.LoginTest)  Time elapsed: 0.59 sec  <<< FAILURE!
+java.lang.AssertionError: successful signin expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at com.Tests.LoginTest.loginTestCheck(LoginTest.java:64)
+
+loginTestCheck(com.Tests.LoginTest)  Time elapsed: 0.655 sec  <<< FAILURE!
+java.lang.AssertionError: successful signin expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at com.Tests.LoginTest.loginTestCheck(LoginTest.java:64)
+
+loginTestCheck(com.Tests.LoginTest)  Time elapsed: 0.919 sec  <<< FAILURE!
+java.lang.AssertionError: Un-successful signin expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at com.Tests.LoginTest.loginTestCheck(LoginTest.java:70)
+
